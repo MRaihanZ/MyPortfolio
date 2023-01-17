@@ -9,7 +9,7 @@ include "assets/php/protocol.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $url; ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="assets/css/index.css" rel="stylesheet">
     <title>Portfolio | MRZ</title>
@@ -40,11 +40,11 @@ include "assets/php/protocol.php";
             </li>
         </ul>
     </nav>
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="container-md bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="main container-md bg-body-tertiary p-3 rounded-2" tabindex="0">
         <div id="about" class="about">
             <div class="profile">
                 <div class="row">
-                    <img src="assets/img/profile.png" alt="" class="col-md">
+                    <img src="<?php echo $url; ?>assets/img/profile.png" alt="" class="col-md">
                     <div class="col-md-9">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, consequatur! Aperiam natus magnam incidunt itaque voluptatibus nemo id fugiat omnis iste, expedita consequuntur aliquid at temporibus provident ducimus cupiditate? Corrupti.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet neque eveniet, earum nisi iste alias, hic, labore perspiciatis nihil a officiis in aut repellendus vitae aspernatur numquam id quas. Necessitatibus?
@@ -69,7 +69,7 @@ include "assets/php/protocol.php";
         <h4 id="scrollspyHeading5">Fifth heading</h4>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, illo aliquam corporis earum blanditiis at unde assumenda numquam eos quod fugit doloribus minima possimus sed accusantium ipsam natus corrupti repellendus.</p>
     </div>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $url; ?>assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

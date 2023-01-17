@@ -1,5 +1,5 @@
 <?php
-
+include "assets/php/protocol.php";
 ?>
 
 <!DOCTYPE html>

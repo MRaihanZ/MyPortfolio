@@ -52,10 +52,10 @@ include "assets/php/protocol.php";
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nobis expedita! Consequatur fugiat tempora maiores officia culpa animi ab itaque reiciendis rerum, consectetur nulla nostrum architecto ea molestias repudiandae perferendis.
                         <div class="skill">
                             <ul>
-                                <li>html</li>
-                                <li>css</li>
-                                <li>javascript</li>
-                                <li>php</li>
+                                <li class="list-item">html</li>
+                                <li class="list-item">css</li>
+                                <li class="list-item">javascript</li>
+                                <li class="list-item">php</li>
                             </ul>
                         </div>
                     </div>

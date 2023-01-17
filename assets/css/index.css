@@ -1,7 +1,8 @@
 body {
     margin: 0px;
 }
-.side-navbar {
-    z-index: 100;
+.navbar {
     position: fixed;
+    z-index: 100;
+    width: 100%;
 }

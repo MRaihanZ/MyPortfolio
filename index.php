@@ -11,7 +11,7 @@ include "assets/php/protocol.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url; ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/css/index.css" rel="stylesheet">
+    <link href="<?php echo $url; ?>assets/css/index.css" rel="stylesheet">
     <title>Portfolio | MRZ</title>
 </head>
 

@@ -139,12 +139,12 @@ include "assets/php/protocol.php";
             </svg>
             <div class="container">
                 <div class="row">
+                    <div class="col-3">
+                        <img src="<?php echo $url; ?>assets/img/sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI" width="200">
+                    </div>
                     <div class="col">
-                        <div class="sd">
-                            <img src="<?php echo $url; ?>assets/img/sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI">
-                            <p>Elementary School</p>
-                            <h5>2008-2014</h5>
-                        </div>
+                        <p>Elementary School</p>
+                        <h5>2008-2014</h5>
                     </div>
                 </div>
             </div>

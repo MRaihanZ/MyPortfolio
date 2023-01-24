@@ -3,6 +3,5 @@ body {
 }
 
 .jumbotron, .about, .education, .project, .contact {
-    padding-top: 1rem;
     background-color: #e2edff;
 }

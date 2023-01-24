@@ -4,4 +4,4 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 } else {
     $url = 'http://';
 }
-$url .= $_SERVER['SERVER_NAME'] . '/project/portfolio/';
+$url .= $_SERVER['SERVER_NAME'] . '/portfolio/';

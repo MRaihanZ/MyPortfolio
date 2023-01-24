@@ -19,11 +19,11 @@ include "assets/php/protocol.php";
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#" data-aos="zoom-in-down">Muhammad Raihan Zhafran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-aos="zoom-in-down">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav" data-aos="zoom-in-down">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -78,13 +78,13 @@ include "assets/php/protocol.php";
                         <div class="html">
                             <p>HTML</p>
                             <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 97%" data-aos="slide-right" data-aos-duration="1000">97%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 97%" data-aos="slide-right" data-aos-duration="1000">97%</div>
                             </div>
                         </div>
                         <div class="css mt-4">
                             <p>CSS</p>
                             <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%" data-aos="slide-right" data-aos-duration="1000">95%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 95%" data-aos="slide-right" data-aos-duration="1000">95%</div>
                             </div>
                         </div>
                     </div>
@@ -92,13 +92,13 @@ include "assets/php/protocol.php";
                         <div class="javascript">
                             <p>Javascript</p>
                             <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%" data-aos="slide-right" data-aos-duration="1000">80%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 80%" data-aos="slide-right" data-aos-duration="1000">80%</div>
                             </div>
                         </div>
                         <div class="php mt-4">
                             <p>PHP</p>
                             <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%" data-aos="slide-right" data-aos-duration="1000">90%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 90%" data-aos="slide-right" data-aos-duration="1000">90%</div>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ include "assets/php/protocol.php";
                         <div class="bootstrap mt-4">
                             <p>Bootstrap</p>
                             <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%" data-aos="slide-right" data-aos-duration="1000">95%</div>
+                                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 95%" data-aos="slide-right" data-aos-duration="1000">95%</div>
                             </div>
                         </div>
                     </div>

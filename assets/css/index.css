@@ -2,6 +2,11 @@ body {
     margin: 0px;
 }
 
-.jumbotron, .about, .education, .project, .contact {
+.jumbotron {
+    padding-top: 2rem;
     background-color: #e2edff;
 }
+
+ .about, .education, .project, .contact {
+    background-color: #e2edff;
+ }

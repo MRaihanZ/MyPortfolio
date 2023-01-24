@@ -138,13 +138,15 @@ include "assets/php/protocol.php";
                 <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z"></path>
             </svg>
             <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <img src="<?php echo $url; ?>assets/img/sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI" width="200">
-                    </div>
-                    <div class="col">
-                        <p>Elementary School</p>
-                        <h5>2008-2014</h5>
+                <div class="sd">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="<?php echo $url; ?>assets/img/sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI" width="200">
+                        </div>
+                        <div class="col">
+                            <p>Elementary School</p>
+                            <h5>2008-2014</h5>
+                        </div>
                     </div>
                 </div>
             </div>

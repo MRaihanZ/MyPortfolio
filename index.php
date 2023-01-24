@@ -141,9 +141,9 @@ include "assets/php/protocol.php";
                 <div class="row">
                     <div class="col">
                         <div class="sd">
-                            <img src="sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI">
+                            <img src="<?php echo $url; ?>assets/img/sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI">
                             <p>Elementary School</p>
-                            <h5></h5>
+                            <h5>2008-2014</h5>
                         </div>
                     </div>
                 </div>

@@ -10,68 +10,170 @@ include "assets/php/protocol.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="<?php echo $url; ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $url; ?>assets/aos/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="<?php echo $url; ?>assets/css/index.css" rel="stylesheet">
     <title>Portfolio | MRZ</title>
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary px-3 mb-3">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="#about">
-                    <i class="bi bi-person-vcard"></i> about
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#scrollspyHeading2">Second</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
                 </ul>
-            </li>
-        </ul>
+            </div>
+        </div>
     </nav>
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="main container-md bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="main rounded-2" tabindex="0">
+        <div id="home" class="home" data-aos="fade-up">
+            <div class="jumbotron text-center">
+                <img class="profile img-thumbnail" src="<?php echo $url; ?>assets/img/profile2.jpg" alt="Photo Profile" width="200">
+                <h1 class="display-4" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="900">Muhammad Raihan Zhafran</h1>
+                <p class="lead" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="900">Full-Stack Developer</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z"></path>
+                </svg>
+            </div>
+        </div>
         <div id="about" class="about">
-            <div class="profile">
-                <div class="row">
-                    <img src="<?php echo $url; ?>assets/img/profile.png" alt="" class="col-md">
-                    <div class="col-md-9">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, consequatur! Aperiam natus magnam incidunt itaque voluptatibus nemo id fugiat omnis iste, expedita consequuntur aliquid at temporibus provident ducimus cupiditate? Corrupti.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet neque eveniet, earum nisi iste alias, hic, labore perspiciatis nihil a officiis in aut repellendus vitae aspernatur numquam id quas. Necessitatibus?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cumque id quod iure veniam adipisci voluptatem ipsa ad nostrum dolore possimus ipsum, expedita necessitatibus doloribus laborum ut officia voluptates a?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, nobis expedita! Consequatur fugiat tempora maiores officia culpa animi ab itaque reiciendis rerum, consectetur nulla nostrum architecto ea molestias repudiandae perferendis.
-                        <div class="skill">
-                            <ul>
-                                <li class="list-item">html</li>
-                                <li class="list-item">css</li>
-                                <li class="list-item">javascript</li>
-                                <li class="list-item">php</li>
-                            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-about">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z"></path>
+            </svg>
+            <div class="container pb-5">
+                <div class="row text-center">
+                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus beatae, enim quaerat laborum, exercitationem officiis expedita perspiciatis aperiam tenetur qui quibusdam quas voluptatem. Exercitationem consequuntur eaque molestias eveniet labore nisi?</p>
+                    </div>
+                    <div class="col-sm" data-aos="fade-up" data-aos-duration="1000">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, et, pariatur corporis enim velit est officiis voluptas eligendi ullam suscipit quam hic distinctio provident cumque consequuntur magnam reiciendis fugit veritatis dignissimos minima! Quas vel est suscipit atque maxime porro provident!
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <div class="html">
+                            <p>HTML</p>
+                            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="97" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 97%" data-aos="slide-right" data-aos-duration="1000">97%</div>
+                            </div>
+                        </div>
+                        <div class="css mt-4">
+                            <p>CSS</p>
+                            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%" data-aos="slide-right" data-aos-duration="1000">95%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="javascript">
+                            <p>Javascript</p>
+                            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%" data-aos="slide-right" data-aos-duration="1000">80%</div>
+                            </div>
+                        </div>
+                        <div class="php mt-4">
+                            <p>PHP</p>
+                            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%" data-aos="slide-right" data-aos-duration="1000">90%</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="bootstrap mt-4">
+                            <p>Bootstrap</p>
+                            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%" data-aos="slide-right" data-aos-duration="1000">95%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="gsap mt-4">
+                            <p>GSAP</p>
+                            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%" data-aos="slide-right" data-aos-duration="1000">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aos mt-4 text-center">
+                    <p>AOS</p>
+                    <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%" data-aos="slide-right" data-aos-duration="1000">100%</div>
+                    </div>
+                </div>
             </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z"></path>
+            </svg>
         </div>
-        <h4 id="scrollspyHeading2">Second heading</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, illo aliquam corporis earum blanditiis at unde assumenda numquam eos quod fugit doloribus minima possimus sed accusantium ipsam natus corrupti repellendus.</p>
-        <h4 id="scrollspyHeading3">Third heading</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, illo aliquam corporis earum blanditiis at unde assumenda numquam eos quod fugit doloribus minima possimus sed accusantium ipsam natus corrupti repellendus.</p>
-        <h4 id="scrollspyHeading4">Fourth heading</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, illo aliquam corporis earum blanditiis at unde assumenda numquam eos quod fugit doloribus minima possimus sed accusantium ipsam natus corrupti repellendus.</p>
-        <h4 id="scrollspyHeading5">Fifth heading</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, illo aliquam corporis earum blanditiis at unde assumenda numquam eos quod fugit doloribus minima possimus sed accusantium ipsam natus corrupti repellendus.</p>
+
+        <div id="education" class="education">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-about">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z"></path>
+            </svg>
+            <div class="container">
+
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div id="project" class="project">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-about">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z"></path>
+            </svg>
+        </div>
+        <div id="contact" class="contact">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="svg-about">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z"></path>
+            </svg>
+        </div>
     </div>
     <script src="<?php echo $url; ?>assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $url; ?>assets/aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="<?php echo $url; ?>assets/gsap/gsap.min.js"></script>
+    <script>
+        gsap.to(".profile", {
+            delay: 0.5,
+            duration: 1,
+            borderRadius: 100,
+        });
+    </script>
 </body>
 
 </html>

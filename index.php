@@ -227,9 +227,9 @@ include "assets/php/protocol.php";
                 </path>
             </svg>
             <div class="container">
-                <p class="fs-3 text-center fw-bold mt-5">Project</p>
+                <p class="fs-3 text-center fw-bold">Project</p>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-sm-6 mt-5">
                         <div class="row">
                             <p class="fs-5 text-center border-bottom">SMK</p>
                             <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
@@ -266,7 +266,7 @@ include "assets/php/protocol.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6 mt-5">
                         <div class="row">
                             <p class="fs-5 text-center border-bottom">Kuliah</p>
                             <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
@@ -291,10 +291,11 @@ include "assets/php/protocol.php";
                 <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z">
                 </path>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z">
-                </path>
-            </svg>
+            <div class="footer">
+                <div class="container">
+
+                </div>
+            </div>
         </div>
         <div class="go-up z-1 position-fixed bottom-0 end-0 bg-primary">
             <a href="#navbar">

@@ -17,7 +17,7 @@ include "assets/php/protocol.php";
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="#" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">M.Raihan.Z</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">
@@ -26,19 +26,19 @@ include "assets/php/protocol.php";
             <div class="collapse navbar-collapse" id="navbarNav" data-aos="zoom-in-down">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Project</a>
+                        <a class="nav-link" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
+                        <a class="nav-link" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -70,12 +70,12 @@ include "assets/php/protocol.php";
                     </div>
                 </div>
                 <div class="row justify-content-between">
-                    <div class="col" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus beatae, enim quaerat laborum,
                             exercitationem officiis expedita perspiciatis aperiam tenetur qui quibusdam quas voluptatem.
                             Exercitationem consequuntur eaque molestias eveniet labore nisi?</p>
                     </div>
-                    <div class="col-sm" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-sm" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, et, pariatur corporis enim velit est
                         officiis voluptas eligendi ullam suscipit quam hic distinctio provident cumque consequuntur magnam
                         reiciendis fugit veritatis dignissimos minima! Quas vel est suscipit atque maxime porro provident!
@@ -157,18 +157,19 @@ include "assets/php/protocol.php";
                 </path>
             </svg>
             <div class="container">
+                <p class="fs-3 text-center fw-bold mb-5">Education</p>
                 <div class="progress-stacked bg-white mx-auto mb-5">
                     <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="25 Animated striped example" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-duration="200">Elementary School 100%</div>
+                        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-duration="200">ES 100%</div>
                     </div>
                     <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-delay="150" data-aos-duration="200">Junior High School 100%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-delay="150" data-aos-duration="200">JHS 100%</div>
                     </div>
                     <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%">
-                        <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-delay="250" data-aos-duration="200">Vocational School 100%</div>
+                        <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-delay="250" data-aos-duration="200">VS 100%</div>
                     </div>
                     <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
-                        <div class="progress-bar bg-purple progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-delay="350" data-aos-duration="200">university 10%</div>
+                        <div class="progress-bar bg_purple progress-bar-striped progress-bar-animated" data-aos="fade-right" data-aos-delay="350" data-aos-duration="200">university 10%</div>
                     </div>
                 </div>
                 <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
@@ -181,7 +182,7 @@ include "assets/php/protocol.php";
                         <h5 class="text-center">2008-2014</h5>
                     </div>
                 </div>
-                <div class="line-connector bg-black mx-auto my-3" data-aos="fade-up"></div>
+                <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
                 <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
                     <img class="card-img-top img-thumbnail" src="assets/img/smp-genr.jpg" alt="SDN Jatiasih VI">
                     <div class="card-body">
@@ -192,7 +193,7 @@ include "assets/php/protocol.php";
                         <h5 class="text-center">2008-2014</h5>
                     </div>
                 </div>
-                <div class="line-connector bg-black mx-auto my-3" data-aos="fade-up"></div>
+                <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
                 <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
                     <img class="card-img-top img-thumbnail" src="assets/img/sekolah65.jpg" alt="SDN Jatiasih VI">
                     <div class="card-body">
@@ -203,7 +204,7 @@ include "assets/php/protocol.php";
                         <h5 class="text-center">2008-2014</h5>
                     </div>
                 </div>
-                <div class="line-connector bg-black mx-auto my-3" data-aos="fade-up"></div>
+                <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
                 <div class="card mx-auto mb-5" data-aos="fade-up" style="width: 10rem;">
                     <img class="card-img-top img-thumbnail" src="assets/img/universitas-gunadarma.jpg" alt="SDN Jatiasih VI">
                     <div class="card-body">
@@ -225,7 +226,59 @@ include "assets/php/protocol.php";
                 <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z">
                 </path>
             </svg>
-
+            <div class="container">
+                <p class="fs-3 text-center fw-bold mt-5">Project</p>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <p class="fs-5 text-center border-bottom">SMK</p>
+                            <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
+                                <img class="card-img-top img-thumbnail" src="assets/img/project_65.jpg" alt="E-Learning">
+                                <div class="card-body">
+                                    <b>
+                                        <p class="card-text fs-5 text-center">E-Learning</p>
+                                    </b>
+                                </div>
+                            </div>
+                            <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="100" style="width: 12rem;">
+                                <img class="card-img-top img-thumbnail" src="assets/img/i_komerse.jpg" alt="E-Commerce">
+                                <div class="card-body">
+                                    <b>
+                                        <p class="card-text fs-5 text-center">E-Commerce</p>
+                                    </b>
+                                </div>
+                            </div>
+                            <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="150" style="width: 12rem;">
+                                <img class="card-img-top img-thumbnail" src="assets/img/perpustakaan.jpg" alt="Perpustakaan">
+                                <div class="card-body">
+                                    <b>
+                                        <p class="card-text fs-5 text-center">Perpustakaan</p>
+                                    </b>
+                                </div>
+                            </div>
+                            <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="200" style="width: 12rem;">
+                                <img class="card-img-top img-thumbnail" src="assets/img/kawalruusisdiknas.jpg" alt="Portal Berita">
+                                <div class="card-body">
+                                    <b>
+                                        <p class="card-text fs-5 text-center">Portal Berita</p>
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <p class="fs-5 text-center border-bottom">Kuliah</p>
+                        <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
+                            <img class="card-img-top img-thumbnail" src="assets/img/portfolio.jpg" alt="Portfolio">
+                            <div class="card-body">
+                                <b>
+                                    <p class="card-text fs-5 text-center">Portfolio</p>
+                                </b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z">
                 </path>
@@ -240,6 +293,11 @@ include "assets/php/protocol.php";
                 <path fill="#ffffff" fill-opacity="1" d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z">
                 </path>
             </svg>
+        </div>
+        <div class="go-up z-1 position-fixed bottom-0 end-0 bg-primary">
+            <a href="#navbar">
+                <i class="bi bi-arrow-up-circle"></i>
+            </a>
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>

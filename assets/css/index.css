@@ -11,11 +11,16 @@ body {
     background-color: #e2edff;
 }
 
-.bg-purple {
+.bg_purple {
     background-color: purple;
 }
 
-.line-connector {
+.line_connector {
     width: 5px;
     height: 10vh;
+}
+
+.bi-arrow-up-circle {
+    padding: 10px;
+    color: white;
 }

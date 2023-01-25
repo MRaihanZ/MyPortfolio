@@ -233,7 +233,7 @@ include "assets/php/protocol.php";
                         <div class="row">
                             <p class="fs-5 text-center border-bottom">SMK</p>
                             <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
-                                <img class="card-img-top img-thumbnail" src="assets/img/project_65.jpg" alt="E-Learning">
+                                <img class="card-img-top img-thumbnail mt-2" src="assets/img/project_65.jpg" alt="E-Learning">
                                 <div class="card-body">
                                     <b>
                                         <p class="card-text fs-5 text-center">E-Learning</p>
@@ -241,7 +241,7 @@ include "assets/php/protocol.php";
                                 </div>
                             </div>
                             <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="100" style="width: 12rem;">
-                                <img class="card-img-top img-thumbnail" src="assets/img/i_komerse.jpg" alt="E-Commerce">
+                                <img class="card-img-top img-thumbnail mt-2" src="assets/img/i_komerse.jpg" alt="E-Commerce">
                                 <div class="card-body">
                                     <b>
                                         <p class="card-text fs-5 text-center">E-Commerce</p>
@@ -249,7 +249,7 @@ include "assets/php/protocol.php";
                                 </div>
                             </div>
                             <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="150" style="width: 12rem;">
-                                <img class="card-img-top img-thumbnail" src="assets/img/perpustakaan.jpg" alt="Perpustakaan">
+                                <img class="card-img-top img-thumbnail mt-2" src="assets/img/perpustakaan.jpg" alt="Perpustakaan">
                                 <div class="card-body">
                                     <b>
                                         <p class="card-text fs-5 text-center">Perpustakaan</p>
@@ -257,7 +257,7 @@ include "assets/php/protocol.php";
                                 </div>
                             </div>
                             <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="200" style="width: 12rem;">
-                                <img class="card-img-top img-thumbnail" src="assets/img/kawalruusisdiknas.jpg" alt="Portal Berita">
+                                <img class="card-img-top img-thumbnail mt-2" src="assets/img/kawalruusisdiknas.jpg" alt="Portal Berita">
                                 <div class="card-body">
                                     <b>
                                         <p class="card-text fs-5 text-center">Portal Berita</p>
@@ -270,7 +270,7 @@ include "assets/php/protocol.php";
                         <div class="row">
                             <p class="fs-5 text-center border-bottom">Kuliah</p>
                             <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
-                                <img class="card-img-top img-thumbnail" src="assets/img/portfolio.jpg" alt="Portfolio">
+                                <img class="card-img-top img-thumbnail mt-2" src="assets/img/portfolio.jpg" alt="Portfolio">
                                 <div class="card-body">
                                     <b>
                                         <p class="card-text fs-5 text-center">Portfolio</p>
@@ -293,7 +293,9 @@ include "assets/php/protocol.php";
             </svg>
             <div class="footer">
                 <div class="container">
-
+                    <div class="row">
+                        .col-sm-
+                    </div>
                 </div>
             </div>
         </div>

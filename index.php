@@ -129,7 +129,7 @@ include "assets/php/protocol.php";
                         </div>
                     </div>
                     <div class="col">
-                        <div class="gsap mt-4">
+                        <div class="gsap mt-3">
                             <p>GSAP</p>
                             <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%" data-aos="slide-right" data-aos-duration="1000">100%</div>
@@ -184,7 +184,7 @@ include "assets/php/protocol.php";
                 </div>
                 <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
                 <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
-                    <img class="card-img-top img-thumbnail" src="assets/img/smp-genr.jpg" alt="SDN Jatiasih VI">
+                    <img class="card-img-top img-thumbnail" src="assets/img/smp-genr.jpg" alt="SMP Generasi Rabbani">
                     <div class="card-body">
                         <b>
                             <p class="card-text fs-5 text-center border-bottom">Junior High School</p>
@@ -195,7 +195,7 @@ include "assets/php/protocol.php";
                 </div>
                 <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
                 <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
-                    <img class="card-img-top img-thumbnail" src="assets/img/sekolah65.jpg" alt="SDN Jatiasih VI">
+                    <img class="card-img-top img-thumbnail" src="assets/img/sekolah65.jpg" alt="SMKN 65 Jakarta">
                     <div class="card-body">
                         <b>
                             <p class="card-text fs-5 text-center border-bottom">Vocational School</p>
@@ -206,7 +206,7 @@ include "assets/php/protocol.php";
                 </div>
                 <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
                 <div class="card mx-auto mb-5" data-aos="fade-up" style="width: 10rem;">
-                    <img class="card-img-top img-thumbnail" src="assets/img/universitas-gunadarma.jpg" alt="SDN Jatiasih VI">
+                    <img class="card-img-top img-thumbnail" src="assets/img/universitas-gunadarma.jpg" alt="Universitas Gunadarma">
                     <div class="card-body">
                         <b>
                             <p class="card-text fs-5 text-center border-bottom">university</p>
@@ -267,13 +267,15 @@ include "assets/php/protocol.php";
                         </div>
                     </div>
                     <div class="col-6">
-                        <p class="fs-5 text-center border-bottom">Kuliah</p>
-                        <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
-                            <img class="card-img-top img-thumbnail" src="assets/img/portfolio.jpg" alt="Portfolio">
-                            <div class="card-body">
-                                <b>
-                                    <p class="card-text fs-5 text-center">Portfolio</p>
-                                </b>
+                        <div class="row">
+                            <p class="fs-5 text-center border-bottom">Kuliah</p>
+                            <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
+                                <img class="card-img-top img-thumbnail" src="assets/img/portfolio.jpg" alt="Portfolio">
+                                <div class="card-body">
+                                    <b>
+                                        <p class="card-text fs-5 text-center">Portfolio</p>
+                                    </b>
+                                </div>
                             </div>
                         </div>
                     </div>

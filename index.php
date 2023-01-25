@@ -317,17 +317,6 @@ include "assets/php/protocol.php";
             duration: 1,
             borderRadius: 100,
         });
-        document.querySelectorAll(".box").forEach(function(box) {
-            box.addEventListener("click", function() {
-                gsap.to(".box", {
-                    duration: 0.5,
-                    opacity: 0,
-                    y: -100,
-                    stagger: 0.1,
-                    ease: "back.in"
-                });
-            });
-        });
     </script>
 </body>
 

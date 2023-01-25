@@ -300,11 +300,11 @@ include "assets/php/protocol.php";
                 </div>
             </div>
         </div>
-        <div class="go-up z-1 position-fixed bottom-0 end-0 bg-primary">
-            <a href="#navbar">
+        <a href="#navbar">
+            <div class="go-up z-1 position-fixed bottom-0 end-0 bg-primary">
                 <i class="bi bi-arrow-up-circle"></i>
-            </a>
-        </div>
+            </div>
+        </a>
     </div>
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/aos/aos.js"></script>

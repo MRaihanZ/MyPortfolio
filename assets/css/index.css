@@ -2,9 +2,29 @@ body {
     margin: 0px;
 }
 
+#navbar {
+    top: -30px;
+}
+
+.active {
+    border-bottom: 2px solid white;
+    animation: active_navbar 0.5s linear;
+}
+
+@keyframes active_navbar {
+    from {
+        width: 0%;
+    }
+    
+    to {
+        width: 100%;
+    }
+}
+
 .jumbotron {
     padding-top: 2rem;
     background-color: #e2edff;
+    margin-top: 55px;
 }
 
 .about, .education, .project, .contact {

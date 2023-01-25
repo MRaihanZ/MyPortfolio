@@ -17,28 +17,29 @@ include "assets/php/protocol.php";
 </head>
 
 <body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div id="navbar" class="navbar_invisible z-1 position-absolute w-100 h-25"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow z-1 position-fixed top-0 w-100">
         <div class="container">
             <a class="navbar-brand" href="#" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">M.Raihan.Z</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav" data-aos="zoom-in-down">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="page" data-aos="zoom-in-down" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about" data-aos="zoom-in-down" data-aos-delay="50">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
+                        <a class="nav-link" href="#education" data-aos="zoom-in-down" data-aos-delay="100">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#project">Project</a>
+                        <a class="nav-link" href="#project" data-aos="zoom-in-down" data-aos-delay="150">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">contact</a>
+                        <a class="nav-link" href="#contact" data-aos="zoom-in-down" data-aos-delay="200">contact</a>
                     </li>
                 </ul>
             </div>

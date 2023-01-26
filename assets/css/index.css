@@ -11,16 +11,6 @@ body {
     animation: active_navbar 0.5s linear;
 }
 
-@keyframes active_navbar {
-    from {
-        width: 0%;
-    }
-    
-    to {
-        width: 100%;
-    }
-}
-
 .jumbotron {
     padding-top: 2rem;
     background-color: #e2edff;

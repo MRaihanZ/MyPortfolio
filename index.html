@@ -14,29 +14,62 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div id="navbar" class="navbar_invisible z-1 position-absolute w-100 h-25"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow z-1 position-fixed top-0 w-100">
     <div class="container">
       <a class="navbar-brand" href="#" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">M.Raihan.Z</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-aos="zoom-in-down"
+        data-aos-anchor-placement="top-bottom">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav" data-aos="zoom-in-down">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" data-aos="zoom-in-down" href="#home">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+              </svg> Home
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about" data-aos="zoom-in-down" data-aos-delay="50">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-vcard" viewBox="0 0 16 16">
+                <path
+                  d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5ZM9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8Zm1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Z" />
+                <path
+                  d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2ZM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96c.026-.163.04-.33.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1.006 1.006 0 0 1 1 12V4Z" />
+              </svg> About
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
+            <a class="nav-link" href="#education" data-aos="zoom-in-down" data-aos-delay="100">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-journal-text" viewBox="0 0 16 16">
+                <path
+                  d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                <path
+                  d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                <path
+                  d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+              </svg> Education
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Project</a>
+            <a class="nav-link" href="#project" data-aos="zoom-in-down" data-aos-delay="150">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-code-slash" viewBox="0 0 16 16">
+                <path
+                  d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+              </svg> Project
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
+            <a class="nav-link" href="#contact" data-aos="zoom-in-down" data-aos-delay="200">contact</a>
           </li>
         </ul>
       </div>
@@ -46,11 +79,12 @@
     data-bs-smooth-scroll="true" class="main rounded-2" tabindex="0">
     <div id="home" class="home" data-aos="fade-up">
       <div class="jumbotron text-center">
-        <img class="profile img-thumbnail" src="assets/img/profile2.jpg" alt="Photo Profile"
-          width="200">
-        <h1 class="display-4" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="900" data-aos-anchor-placement="top-bottom">
+        <img class="profile img-thumbnail" src="assets/img/profile2.jpg" alt="Photo Profile" width="200">
+        <h1 class="display-4" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="900"
+          data-aos-anchor-placement="top-bottom">
           Muhammad Raihan Zhafran</h1>
-        <p class="lead" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="900" data-aos-anchor-placement="top-bottom">
+        <p class="lead" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" data-aos-duration="900"
+          data-aos-anchor-placement="top-bottom">
           Full-Stack Developer</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path fill="#ffffff" fill-opacity="1"
@@ -68,29 +102,30 @@
       <div class="container pb-5">
         <div class="row text-center">
           <div class="col" data-aos="fade-up" data-aos-duration="1000">
-            <h2>About Me</h2>
+            <h2 class="fw-bold">About Me</h2>
           </div>
         </div>
         <div class="row justify-content-between">
-          <div class="col" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus beatae, enim quaerat laborum,
               exercitationem officiis expedita perspiciatis aperiam tenetur qui quibusdam quas voluptatem.
               Exercitationem consequuntur eaque molestias eveniet labore nisi?</p>
           </div>
-          <div class="col-sm" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-sm" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, et, pariatur corporis enim velit est
             officiis voluptas eligendi ullam suscipit quam hic distinctio provident cumque consequuntur magnam
             reiciendis fugit veritatis dignissimos minima! Quas vel est suscipit atque maxime porro provident!
           </div>
         </div>
-        <div class="row mt-5">
+        <p class="fs-3 text-center fw-bold mt-5">My Skill</p>
+        <div class="row mt-4">
           <div class="col">
             <div class="html">
               <p>HTML</p>
-              <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="97"
+              <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="99"
                 aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 97%"
-                  data-aos="slide-right" data-aos-duration="1000">97%</div>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 99%"
+                  data-aos="slide-right" data-aos-duration="1000">99%</div>
               </div>
             </div>
             <div class="css mt-4">
@@ -120,10 +155,19 @@
               </div>
             </div>
           </div>
+          <div class="mysql mt-4 text-center">
+            <p>Mysql</p>
+            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 90%"
+                data-aos="slide-right" data-aos-duration="1000">90%</div>
+            </div>
+          </div>
         </div>
         <div class="row">
+          <p class="fs-3 text-center fw-bold mt-5">Library & Framework</p>
           <div class="col">
-            <div class="bootstrap mt-4">
+            <div class="bootstrap mt-3">
               <p>Bootstrap</p>
               <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="95"
                 aria-valuemin="0" aria-valuemax="100">
@@ -133,7 +177,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="gsap mt-4">
+            <div class="gsap mt-3">
               <p>GSAP</p>
               <div class="progress bg-white" role="progressbar" aria-label="Animated striped example"
                 aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
@@ -142,15 +186,16 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="aos mt-4 text-center">
-          <p>AOS</p>
-          <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="100"
-            aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"
-              data-aos="slide-right" data-aos-duration="1000">100%</div>
+          <div class="aos mt-4 text-center">
+            <p>AOS</p>
+            <div class="progress bg-white" role="progressbar" aria-label="Animated striped example" aria-valuenow="100"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"
+                data-aos="slide-right" data-aos-duration="1000">100%</div>
+            </div>
           </div>
         </div>
+
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#ffffff" fill-opacity="1"
@@ -166,15 +211,71 @@
         </path>
       </svg>
       <div class="container">
-        <div class="sd">
-          <div class="row">
-            <div class="col-2">
-              <img src="assets/img/sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI" width="200">
-            </div>
-            <div class="col">
-              <p>Elementary School</p>
-              <h5>2008-2014</h5>
-            </div>
+        <p class="fs-3 text-center fw-bold mb-5">Education</p>
+        <div class="progress-stacked bg-white mx-auto mb-5">
+          <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="25 Animated striped example"
+            aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" data-aos="fade-right"
+              data-aos-duration="200">ES 100%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="width: 25%">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" data-aos="fade-right"
+              data-aos-delay="150" data-aos-duration="200">JHS 100%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="width: 25%">
+            <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" data-aos="fade-right"
+              data-aos-delay="250" data-aos-duration="200">VS 100%</div>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="10" aria-valuemin="0"
+            aria-valuemax="100" style="width: 10%">
+            <div class="progress-bar bg_purple progress-bar-striped progress-bar-animated" data-aos="fade-right"
+              data-aos-delay="350" data-aos-duration="200">university 10%</div>
+          </div>
+        </div>
+        <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
+          <img class="card-img-top img-thumbnail" src="assets/img/sdn-jatiasih-vi.jpg" alt="SDN Jatiasih VI">
+          <div class="card-body">
+            <b>
+              <p class="card-text fs-5 text-center border-bottom">Elementary School</p>
+            </b>
+            <br>
+            <h5 class="text-center">2008-2014</h5>
+          </div>
+        </div>
+        <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
+        <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
+          <img class="card-img-top img-thumbnail" src="assets/img/smp-genr.jpg" alt="SMP Generasi Rabbani">
+          <div class="card-body">
+            <b>
+              <p class="card-text fs-5 text-center border-bottom">Junior High School</p>
+            </b>
+            <br>
+            <h5 class="text-center">2008-2014</h5>
+          </div>
+        </div>
+        <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
+        <div class="card mx-auto" data-aos="fade-up" style="width: 10rem;">
+          <img class="card-img-top img-thumbnail" src="assets/img/sekolah65.jpg" alt="SMKN 65 Jakarta">
+          <div class="card-body">
+            <b>
+              <p class="card-text fs-5 text-center border-bottom">Vocational School</p>
+            </b>
+            <br>
+            <h5 class="text-center">2008-2014</h5>
+          </div>
+        </div>
+        <div class="line_connector bg-black mx-auto my-3" data-aos="fade-up"></div>
+        <div class="card mx-auto mb-5" data-aos="fade-up" style="width: 10rem;">
+          <img class="card-img-top img-thumbnail" src="assets/img/universitas-gunadarma.jpg"
+            alt="Universitas Gunadarma">
+          <div class="card-body">
+            <b>
+              <p class="card-text fs-5 text-center border-bottom">university</p>
+            </b>
+            <br>
+            <h5 class="text-center">2008-2014</h5>
           </div>
         </div>
       </div>
@@ -190,6 +291,62 @@
           d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z">
         </path>
       </svg>
+      <div class="container">
+        <p class="fs-3 text-center fw-bold">Project</p>
+        <div class="row">
+          <div class="col-sm-5 mt-5">
+            <div class="row">
+              <p class="fs-5 text-center border-bottom">SMK</p>
+              <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
+                <img class="card-img-top img-thumbnail mt-2" src="assets/img/project_65.jpg" alt="E-Learning">
+                <div class="card-body">
+                  <b>
+                    <p class="card-text fs-5 text-center">E-Learning</p>
+                  </b>
+                </div>
+              </div>
+              <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="100" style="width: 12rem;">
+                <img class="card-img-top img-thumbnail mt-2" src="assets/img/i_komerse.jpg" alt="E-Commerce">
+                <div class="card-body">
+                  <b>
+                    <p class="card-text fs-5 text-center">E-Commerce</p>
+                  </b>
+                </div>
+              </div>
+              <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="150" style="width: 12rem;">
+                <img class="card-img-top img-thumbnail mt-2" src="assets/img/perpustakaan.jpg" alt="Perpustakaan">
+                <div class="card-body">
+                  <b>
+                    <p class="card-text fs-5 text-center">Perpustakaan</p>
+                  </b>
+                </div>
+              </div>
+              <div class="card mx-auto my-3" data-aos="fade-up" data-aos-delay="200" style="width: 12rem;">
+                <img class="card-img-top img-thumbnail mt-2" src="assets/img/kawalruusisdiknas.jpg" alt="Portal Berita">
+                <div class="card-body">
+                  <b>
+                    <p class="card-text fs-5 text-center">Portal Berita</p>
+                  </b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-5 mt-5">
+            <div class="row">
+              <p class="fs-5 text-center border-bottom">Kuliah</p>
+              <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
+                <img class="card-img-top img-thumbnail mt-2" src="assets/img/portfolio.jpg" alt="Portfolio">
+                <div class="card-body">
+                  <b>
+                    <p class="card-text fs-5 text-center">Portfolio</p>
+                  </b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#ffffff" fill-opacity="1"
           d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z">
@@ -202,17 +359,35 @@
           d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,0L1344,0L1344,0L1248,0L1248,0L1152,0L1152,0L1056,0L1056,0L960,0L960,0L864,0L864,0L768,0L768,0L672,0L672,0L576,0L576,0L480,0L480,0L384,0L384,0L288,0L288,0L192,0L192,0L96,0L96,0L0,0L0,0Z">
         </path>
       </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#ffffff" fill-opacity="1"
-          d="M0,160L0,64L96,64L96,64L192,64L192,96L288,96L288,128L384,128L384,192L480,192L480,160L576,160L576,96L672,96L672,32L768,32L768,64L864,64L864,128L960,128L960,192L1056,192L1056,224L1152,224L1152,96L1248,96L1248,128L1344,128L1344,32L1440,32L1440,320L1344,320L1344,320L1248,320L1248,320L1152,320L1152,320L1056,320L1056,320L960,320L960,320L864,320L864,320L768,320L768,320L672,320L672,320L576,320L576,320L480,320L480,320L384,320L384,320L288,320L288,320L192,320L192,320L96,320L96,320L0,320L0,320Z">
-        </path>
-      </svg>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg></a>
+            </div>
+            <div class="col-sm-6"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6"></div>
+            <div class="col-sm-6"></div>
+          </div>
+        </div>
+      </div>
     </div>
+    <a href="#navbar">
+      <div class="go-up z-1 position-fixed bottom-0 end-0 bg-primary">
+        <i class="bi bi-arrow-up-circle"></i>
+      </div>
+    </a>
   </div>
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/aos/aos.js"></script>
   <script>
-        AOS.init();
+    AOS.init();
   </script>
   <script src="assets/gsap/gsap.min.js"></script>
   <script>

@@ -230,7 +230,7 @@ include "assets/php/protocol.php";
             <div class="container">
                 <p class="fs-3 text-center fw-bold">Project</p>
                 <div class="row">
-                    <div class="col-sm-6 mt-5">
+                    <div class="col-sm-5 mt-5">
                         <div class="row">
                             <p class="fs-5 text-center border-bottom">SMK</p>
                             <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
@@ -267,7 +267,8 @@ include "assets/php/protocol.php";
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 mt-5">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5 mt-5">
                         <div class="row">
                             <p class="fs-5 text-center border-bottom">Kuliah</p>
                             <div class="card mx-auto my-3" data-aos="fade-up" style="width: 12rem;">
@@ -295,7 +296,12 @@ include "assets/php/protocol.php";
             <div class="footer">
                 <div class="container">
                     <div class="row">
-                        .col-sm-
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-6"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6"></div>
+                        <div class="col-sm-6"></div>
                     </div>
                 </div>
             </div>

@@ -1,41 +1,102 @@
 body {
-    margin: 0px;
+	margin: 0;
+	padding: 0;
 }
 
-#navbar {
-    top: -30px;
+main {
+	margin-top: 4.4rem;
 }
 
-.active {
-    border-bottom: 2px solid white;
-    animation: active_navbar 0.5s linear;
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+	100% {
+		background-position: 50px 50px;
+	}
+}
+@-moz-keyframes bg-scrolling-reverse {
+	100% {
+		background-position: 50px 50px;
+	}
+}
+@-o-keyframes bg-scrolling-reverse {
+	100% {
+		background-position: 50px 50px;
+	}
+}
+@keyframes bg-scrolling-reverse {
+	100% {
+		background-position: 50px 50px;
+	}
+}
+@-webkit-keyframes bg-scrolling {
+	0% {
+		background-position: 50px 50px;
+	}
+}
+@-moz-keyframes bg-scrolling {
+	0% {
+		background-position: 50px 50px;
+	}
+}
+@-o-keyframes bg-scrolling {
+	0% {
+		background-position: 50px 50px;
+	}
+}
+@keyframes bg-scrolling {
+	0% {
+		background-position: 50px 50px;
+	}
+}
+/* Main styles */
+.about {
+	padding: 13.3rem 0;
+	color: #999;
+	/* img size is 50x50 */
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC")
+		repeat 0 0;
+	-webkit-animation: bg-scrolling-reverse 0.92s infinite;
+	/* Safari 4+ */
+	-moz-animation: bg-scrolling-reverse 0.92s infinite;
+	/* Fx 5+ */
+	-o-animation: bg-scrolling-reverse 0.92s infinite;
+	/* Opera 12+ */
+	animation: bg-scrolling-reverse 0.92s infinite;
+	/* IE 10+ */
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+.about::before {
+	font-size: 8rem;
+	font-weight: 100;
+	font-style: normal;
 }
 
-.jumbotron {
-    padding-top: 2rem;
-    background-color: #e2edff;
-    margin-top: 55px;
+.about .col-md-5 img {
+	transition: border-radius 5s;
+	@media screen and (min-width: 992px) {
+		width: 25rem;
+	}
+	@media screen and (max-width: 992px) {
+		width: 20rem;
+	}
+	@media screen and (max-width: 576px) {
+		width: 15rem;
+	}
 }
 
-.about, .education, .project, .contact {
-    background-color: #e2edff;
+img.border {
+	border-radius: 50%;
 }
 
-.bg_purple {
-    background-color: purple;
+.skill .row .col-sm-12 .skill_icon {
+	display: inline-block;
+	padding: 1rem;
 }
 
-.line_connector {
-    width: 5px;
-    height: 10vh;
-}
-
-.go-up {
-    padding: 10px 15px;
-    margin: 0px 20px 20px 0px;
-    border-radius: 50%;
-}
-
-.bi-arrow-up-circle {
-    color: white;
+.skill .row .col-sm-12 .skill_icon img {
+	width: 25px;
 }
